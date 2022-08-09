@@ -22,7 +22,7 @@ public class Lockers1 {
 		File directoryPath = new File("/home/raghunandanj007/eclipse-workspace/Test/src/testPack");
 		ArrayList<String> dp = new ArrayList<String>(Arrays.asList(directoryPath.list()));
 		Collections.sort(dp);
-		System.out.println("\nList of current files in ascending order is: \n" + dp);
+		System.out.println("\nList of current files in ascending order is: \n" + dp); 
 	}
 	//Method to choose interface options
 	public static void InterfaceMenu() {
